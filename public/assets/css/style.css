@@ -854,6 +854,14 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-3\.5xl {
+  border-radius: 1.75rem;
+}
+
+.rounded-2\.5xl {
+  border-radius: 1.25rem;
+}
+
 .rounded-4xl {
   border-radius: 2rem;
 }
