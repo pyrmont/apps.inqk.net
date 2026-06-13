@@ -971,6 +971,21 @@ video {
   line-height: 1;
 }
 
+.crossmate-masthead {
+  grid-template-columns: auto minmax(0, 1fr);
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.crossmate-logo-cell {
+  padding-right: 0;
+}
+
+.crossmate-title {
+  font-size: clamp(1.75rem, 8.75vw, 3rem);
+  line-height: 1;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -1117,6 +1132,20 @@ video {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .crossmate-masthead {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+
+  .crossmate-logo-cell {
+    padding-right: 2.5rem;
+  }
+
+  .crossmate-title {
+    font-size: 3rem;
   }
 }
 
