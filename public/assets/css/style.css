@@ -904,6 +904,14 @@ video {
   background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
 }
 
+.bg-crossmate-page {
+  background-color: #e4f2ff;
+}
+
+.bg-crossmate-blue {
+  background-color: #6db0f2;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1034,6 +1042,19 @@ video {
 .text-green-500 {
   --tw-text-opacity: 1;
   color: rgba(16, 185, 129, var(--tw-text-opacity));
+}
+
+.text-crossmate-blue {
+  color: #4da3f1;
+}
+
+.text-crossmate-coral {
+  color: #ff6d75;
+}
+
+.portfolio-apps {
+  flex-wrap: wrap;
+  gap: 2.5rem;
 }
 
 .underline {
