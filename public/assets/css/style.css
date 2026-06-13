@@ -971,19 +971,16 @@ video {
   line-height: 1;
 }
 
-.crossmate-masthead {
-  grid-template-columns: auto minmax(0, 1fr);
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
+.app-masthead {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  row-gap: 1.5rem;
+  text-align: center;
 }
 
-.crossmate-logo-cell {
+.app-logo-cell {
   padding-right: 0;
-}
-
-.crossmate-title {
-  font-size: clamp(1.75rem, 8.75vw, 3rem);
-  line-height: 1;
+  text-align: center;
 }
 
 .font-light {
@@ -1134,19 +1131,20 @@ video {
     align-items: center;
   }
 
-  .crossmate-masthead {
+  .app-masthead {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     -moz-column-gap: 0;
          column-gap: 0;
+    justify-items: stretch;
+    row-gap: 0;
+    text-align: left;
   }
 
-  .crossmate-logo-cell {
+  .app-logo-cell {
     padding-right: 2.5rem;
+    text-align: right;
   }
 
-  .crossmate-title {
-    font-size: 3rem;
-  }
 }
 
 @media (min-width: 1024px) {
