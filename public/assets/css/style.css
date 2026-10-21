@@ -912,6 +912,22 @@ video {
   background-color: #6db0f2;
 }
 
+.bg-reportage-paper {
+  background-color: #f5f0e4;
+}
+
+.bg-reportage-auburn {
+  background-color: #8e3b22;
+}
+
+.border-reportage-rule {
+  border-color: #dad2c3;
+}
+
+.ring-reportage-rule {
+  box-shadow: 0 0 0 1px #dad2c3;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1066,6 +1082,26 @@ video {
 
 .text-crossmate-coral {
   color: #ff6d75;
+}
+
+.text-reportage-ink {
+  color: #1b1c1f;
+}
+
+.text-reportage-title {
+  color: #4a433b;
+}
+
+.text-reportage-auburn {
+  color: #8e3b22;
+}
+
+.text-reportage-vermilion {
+  color: #c4481a;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .portfolio-apps {
